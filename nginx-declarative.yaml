@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
  name: nginx-declarative
 spec:
-  replicas: 6 # 3 -> 6 으로 변경
+  replicas: 3 # 3 -> 6 으로 변경
   selector:
     matchLabels:
       app: nginx
